@@ -1,0 +1,297 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,300italic,400italic,600italic);
+
+body {
+	text-align: center;
+	margin: 0;
+	font-family: "Source Sans Pro";
+	font-weight: 300;
+}
+
+div.slide {
+	max-width: 100%;
+	height: 100vh;
+	max-height: 100vh;
+}
+
+div#title {
+	background: #fff;
+	color: #696969;
+}
+
+#logo {
+	max-width: 40vh;
+	margin-bottom: 7vh;
+	margin-top: 12vh;
+}
+
+#downguide {
+	padding-top: 10vh;
+	max-width: 55vh;
+	opacity: 0.1;
+	transition: 0.175s ease;
+}
+
+#downguide:hover {
+	opacity: 0.25;
+}
+
+#convicted {
+	font-size: 8vh;
+}
+
+.infoholder {
+	margin-bottom: 5vh;
+}
+
+.info {
+	display: inline-block;
+	font-size: 3.25vh;	
+}
+
+.spacer {
+	font-size: 3.25vh;
+	display: inline-block;
+	width: 1.5em;
+}
+
+.heading {
+	font-size: 5.25vh;
+	padding-top: 12vh;
+}
+
+div#weare {
+	background: #4edbe9;
+	color: #696969;
+}
+
+.gallery {
+	width: 45vh; 
+	height: 65vh; 
+	background: #8df2fc; 
+	margin: 7vh auto;
+	box-shadow: 0px 0px 2vh rgba(0,0,0,0.85);
+}
+
+img.galimg{
+	width: 100%;
+	height: auto;
+}
+
+div#schedule {
+	background: #3ff2ba;
+	color: #696969;
+}
+
+#schedhead {
+	margin-bottom: 15vh;
+}
+
+.tablecontainer {
+	display: inline-block;
+}
+
+.schedtable {
+	color: #589682;
+	font-size: 5vh;
+}
+
+th {
+	font-weight: 600;
+}
+
+td.blank {
+	height: 2vh;
+}
+td.smallblank {
+	height: 1vh;
+}
+
+#schedbar {
+	background: #7bd1b6;
+	height: 31vh;
+	width: 0.225vw;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	bottom: 1vh;
+}
+
+#cst {
+	margin-top: 3vh; 
+	font-size: 6.5vh; 
+	font-weight: 200;
+	margin-left: 1vw;
+}
+
+div#recruit {
+	background: #43bec9;
+	color: #696969;
+}
+
+div#contact {
+	background: #222;
+	color: #e3e3e3;
+}
+
+.officername {
+	padding-top: 5vh;
+	font-size: 4vh;
+}
+
+#teezespace {
+	padding-top: 8vh;
+}
+
+.realid {
+	font-size: 2.75vh;
+}
+
+.contactbttn {
+	display: inline-block;
+	width: 13.5vh;
+	height: 5.5vh;
+	background-color: #3ff2ba;
+	color: #222;
+	border-radius: 0.5vh;
+	line-height: 5.5vh;
+	border: 0.25vh solid #777;
+}
+
+.contactbttn:hover {
+	background-color: #99F2FF;
+}
+
+.contactbttn:active {
+	background-color: #69CCF0;
+}
+
+.bttnspacer {
+	display: inline-block;
+	font-size: 2.75vh;
+	width: 1em;
+}
+
+#burgerback{
+	z-index: 1;
+	width: 5.5vh; 
+	height: 5.5vh; 
+	border-radius: 0.5vh; 
+	background: #fff; 
+	opacity: 0.385; 
+	position: fixed; 
+	top: 1vh; 
+	left: 1vh;
+}
+
+.burgerbar {
+	position: static;
+	background-color: #bbb;
+    border: 0.133vh solid #555;
+    border-radius: 0.2vh;
+    height: 0.6vh;
+    margin: 0.65vh auto;
+    width: 75%;
+}
+
+#recmargin {
+	
+	margin-top: 10vh;
+	margin-bottom: 7vh;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 2.75vh;
+	text-align: left;
+	color: #404040;
+}
+
+td.left {
+	padding-right: 2.25vh;
+	padding-left: 1vh;
+	font-weight: 600;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.85)
+}
+
+td.right {
+	padding-left: 2.25vh;
+	padding-right: 1vh;
+}
+
+td.right, 
+td.left {
+	line-height: 4.1vh;
+}
+
+tr.wow:nth-child(odd) {
+  background-color: #38959d;
+}
+
+#recbutton {
+	width: 35vh;
+	max-width: 35vh;
+	height: 10vh;
+	background: #36F1CD;
+	border-radius: 1vh;
+	font-size: 6vh;
+	line-height: 9vh;
+	margin: 0 auto;
+	border: 0.25vh solid #777;
+	color: #696969;
+	text-decoration: none;
+}
+
+#recbutton:hover {
+	background-color: #4C6085;
+	color: #ddd;
+	border-color: #c9c9c9;
+}
+
+#recbutton:active {
+	background-color: #32322C;
+	color: #ddd;
+	border-color: #c9c9c9;
+}
+
+a.rec {
+	text-decoration: none;
+}
+
+
+
+/*##              #### 
+####			  ####
+#### CLASS COLORS ####
+####			  ####
+####			  ##*/			  
+
+.dk {
+    color: #C41F3B;
+}
+.druid {
+    color: #FF7D0A;
+}
+.hunt {
+    color: #ABD473;
+}
+.mag {
+    color: #69CCF0;
+}
+.monk {
+    color: #00FF96;
+}
+.pal {
+    color: #F58CBA;
+}
+.pri {
+    color: #CCCCCC;
+}
+.rog {
+    color: #FFF569;
+}
+.sham {
+    color: #0070DE;
+}
+.lock {
+    color: #9482C9;
+}
+.war {
+    color: #C79C6E;
+}
